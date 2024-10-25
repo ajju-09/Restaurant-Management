@@ -1,0 +1,418 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.main{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
+.main-logo{
+    height: 90px;
+    width: 90px;
+    background-image: url("images/logo3.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 250px;
+}
+.main-search{
+    position: absolute;
+    left: 500px;    
+    top: 30px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;    
+    outline: none;
+}
+.main-input{
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;   
+    
+}
+.main-i{
+    height: 39px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.nav-signin{
+    height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #ffbe0b;
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+}
+.bloo:hover{
+    height: 315px;
+    width: 21%;
+}
+
+a{
+    text-decoration: none;
+}
+.section1{
+    height: 50px;
+    width: 100%;
+    background-color: #ffca3a;
+}
+.section1-p{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px dashed black;
+}
+
+.section1-1{
+    width: 100%;
+    background-color: #ffca3a;
+    height: 100%;
+}
+.hero-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    animation: change linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+    
+}
+.hero-div1{
+    height: 300px;
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    
+}
+.div1-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/spring_roll.jpg   ");
+    background-size: cover;
+}
+.div1-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div1-h2{
+    position: relative;
+    left: 10px;
+}
+.div1-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div1-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+.div1-button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #f8961e;
+}
+.div2-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/cilly_paneer.jpeg");
+    background-size: cover;
+}
+.div2-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div2-h2{
+    position: relative;
+    left: 10px;
+}
+.div2-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div2-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+.div3-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/finger_chips.webp");
+    background-size: cover;
+}
+.div3-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div3-h2{
+    position: relative;
+    left: 10px;
+}
+.div3-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div3-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+
+.div4-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/paneer_tikka.jpg");
+    background-size: cover;
+}
+.div4-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div4-h2{
+    position: relative;
+    left: 10px;
+}
+.div4-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div4-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+
+.div5-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/dahi_puri.jpeg");
+    background-size: cover;
+}
+.div5-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div5-h2{
+    position: relative;
+    left: 10px;
+}
+.div5-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div5-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+
+.div6-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/chessy_maggie.webp");
+    background-size: cover;
+}
+.div6-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div6-h2{
+    position: relative;
+    left: 10px;
+}
+.div6-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div6-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+} 
+
+.div7-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/medu.jpeg");
+    background-size: cover;
+}
+.div7-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div7-h2{
+    position: relative;
+    left: 10px;
+}
+.div7-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div7-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+} 
+
+.div8-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/dhokla.jpeg");
+    background-size: cover;
+}
+.div8-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div8-h2{
+    position: relative;
+    left: 10px;
+}
+.div8-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div8-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+.div9-img{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-image: url("images/methi.jpeg");
+    background-size: cover;
+}
+.div9-desc{
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div9-h2{
+    position: relative;
+    left: 10px;
+}
+.div9-div{
+    height: 18px;
+    width: 50px;
+    background-color: rgb( 38, 126, 62);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 240px;
+    top: -26px;
+}
+.div9-p{
+    position: relative;
+    left: 240px;
+    top: -10px;
+}
+@keyframes change
+{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
